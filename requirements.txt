@@ -1,0 +1,11 @@
+uvicorn
+fastapi
+typing
+pydantic
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+plotly
