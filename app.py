@@ -35,7 +35,7 @@ class Prediction(BaseModel):
 @app.get('/')
 def index(name:str = None): 
     if name == None:
-        return {'Welcome': 'Sych!!!'} 
+        return {'Welcome': 'Stranger!!!'} 
 
 @app.post('/post-predict/')
 def prediction(prediction : Prediction):
